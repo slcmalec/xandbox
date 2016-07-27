@@ -1,0 +1,39 @@
+\documentclass[10pt,handout,twocolumn,wordchoicegiven]{xourse}
+
+
+\input{preamble.tex}
+
+%% \iftikzexport
+%% \newcommand\chapterstyle{}
+%% \newcommand\sectionstyle{}
+%% \else
+%% \usepackage{lulu1}
+%% \fi
+\usepackage{lulu1}
+
+
+\title{My Test Course}
+
+\begin{document}
+\maketitle
+
+\setcounter{tocdepth}{2}
+
+\part{Things and stuff like what are in courses}
+
+%% Understanding Functions
+\chapterstyle
+\activity{first.tex}
+\sectionstyle
+%\activity{../understandingFunctions/breakGround.tex}
+%\activity{../understandingFunctions/digInForEachInputExactlyOneOutput.tex}
+%\activity{../understandingFunctions/digInCompositionOfFunctions.tex}
+%\activity{../understandingFunctions/digInInversesOfFunctions.tex}
+
+
+
+
+
+\iftikzexport\else\printindex\fi
+
+\end{document}
